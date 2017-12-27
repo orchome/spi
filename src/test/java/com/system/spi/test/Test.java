@@ -8,7 +8,6 @@ public class Test {
 
     public static void main(String[] args) throws Exception {
         ServiceLoader<DogService> loaders = ServiceLoader.load(DogService.class);
-        System.out.println("classPath:" + System.getProperty("java.class.path"));
 
         for (DogService d : loaders) {
             d.sleep();

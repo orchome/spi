@@ -6,7 +6,5 @@ public class WhiteDogServiceImpl implements DogService {
 
     public void sleep() {
         System.out.println("white Dog,sleep...");
-
     }
-
 }
